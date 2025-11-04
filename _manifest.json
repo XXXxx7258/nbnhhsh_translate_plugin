@@ -1,0 +1,34 @@
+{
+  "manifest_version": 1,
+  "name": "神奇海螺缩写翻译插件 (Nbnhhsh Translator)",
+  "version": "1.0.0",
+  "description": "独立的神奇海螺 API 缩写翻译工具，支持缓存与重试机制。",
+  "author": {
+    "name": "晴空",
+    "url": "https://github.com/XXXxx7258"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "0.10.0"
+  },
+  "keywords": ["translation", "nbnhhsh", "abbreviation"],
+  "categories": ["Translation", "Utilities"],
+  "default_locale": "zh-CN",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "translation",
+    "components": [
+      {
+        "type": "tool",
+        "name": "abbreviation_translate",
+        "description": "翻译中文网络缩写词汇"
+      }
+    ],
+    "features": [
+      "神奇海螺 API 集成",
+      "支持缓存与重试机制",
+      "可配置请求参数"
+    ]
+  }
+}
+
